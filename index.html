@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamster Combat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        .container {
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+            max-width: 400px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        #gameArea {
+            margin-top: 20px;
+            display: none; /* Изначально скрыто */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hamster Combat</h1>
+        <button id="playButton">Play</button>
+        <div id="gameArea">
+            <h2>Your Hamster is Ready!</h2>
+            <p id="hamsterStats">Level: 1</p>
+            <button id="tapButton">Tap to Upgrade!</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Подключение внешнего JavaScript -->
+</body>
+</html>
